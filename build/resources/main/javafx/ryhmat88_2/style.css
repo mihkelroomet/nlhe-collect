@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Impress BT";
+    src: url("impress_bt.ttf");
+}
+
+* {
+    -fx-black: #171717;
+    -fx-white: #eeefe8;
+    -fx-hover: #ebfcc2;
+    -fx-pressed: #d2fd8b;
+    -fx-dark-green: #175917;
+    -fx-pink: #e7a0a0;
+    -fx-red: #ff2000;
+}
+
+.root {
+    -fx-background-color: -fx-black;
+    -fx-font-family: "Impress BT";
+    -fx-font-size: 16;
+    -fx-text-fill: -fx-black;
+}
+
+.black-background {
+    -fx-background-color: -fx-black;
+}
+
+.button, .toggle-button {
+    -fx-font-size: 24;
+    -fx-color: -fx-white;
+    -fx-background-radius: 50%;
+}
+
+.button:hover, .toggle-button:hover {
+    -fx-color: -fx-hover;
+}
+
+.button:pressed, .toggle-button:hover {
+    -fx-color: -fx-pressed;
+}
+
+.label {
+    -fx-text-fill: -fx-white;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+ }
+
+.scroll-pane {
+    -fx-background-color: -fx-black;
+}
+
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-border-color: -fx-white;
+    -fx-border-radius: 50;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-fill: -fx-black;
+    -fx-border-color: transparent;
+    -fx-alignment: right;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: -fx-white;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: -fx-hover;
+}
+
+.scroll-bar .thumb:pressed {
+    -fx-background-color: -fx-pressed;
+}
+
+.player-box {
+    -fx-background-color: rgb(230, 255, 230, 0.75);
+    -fx-background-radius: 50;
+}
+
+.player-name {
+    -fx-background-color: -fx-white;
+}
+
+.knock-box {
+    -fx-opacity: 100%;
+    -fx-background-color: rgb(0, 0, 0, 0.5);
+    -fx-background-radius: 50;
+    -fx-text-fill: -fx-white;
+}
+
+.black-text {
+    -fx-text-fill: -fx-black;
+}
+
+.red-text {
+    -fx-text-fill: -fx-red;
+}
+
+.card-button {
+    -fx-background-radius: 20%;
+    -fx-font-family: "Arial";
+}
+
+.delete-button {
+    -fx-text-fill: -fx-red;
+}
+
+#help-text {
+    -fx-fill: -fx-white;
+}
+
+#button-pane {
+    -fx-background-color: -fx-dark-green;
+}
+
+#error-box {
+    -fx-background-color: -fx-pink;
+    -fx-opacity: 0%;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50%;
+    -fx-border-color: -fx-red;
+    -fx-text-fill: -fx-red;
+}
